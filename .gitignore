@@ -5,3 +5,33 @@ __pycache__
 __pycache__/
  /__pycache__/
  *.pyc
+# Code Editor specifics
+.vscode/
+
+# Ignore all python cache files
+*.pyc
+
+# Ignore .env file
+.env
+env/
+
+/static
+
+# root media dir
+/media
+
+db.sqlite3
+
+#project specific
+/csvs/*
+!/csvs/.gitkeep
+/registers/*
+!/registers/.gitkeep
+/locale/bg/*
+/locale/en/*
+!/locale/bg/.gitkeep
+!/locale/en/.gitkeep
+
+# ignore pycharm files
+.idea/
+.venv3.8/
