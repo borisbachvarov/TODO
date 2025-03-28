@@ -1,4 +1,6 @@
 .env
 venvtodo
 db.sqlite3
- /pycache/
+__pycache__
+__pycache__/
+ /__pycache__/
